@@ -21,8 +21,4 @@ variable "private_subnets" {
   type = list(string)
 }
 
-variable "private_subnets" {
-  description = "private subnet CIDRs"
-  type =  list(string)
-}
 
