@@ -5,6 +5,7 @@ variable "cluster_name" {
 
 variable "clsuter_version" {
   type = string
+  default = 1.29
 }
 
 variable "vpc_id" {
@@ -25,12 +26,15 @@ variable "node_instance_type" {
 
 variable "node_desired" {
   type = number
+  default = 2
 }
 
 variable "node_min" {
   type = number
+  default = 2
 }
 
 variable "node_max" {
   type = number
+  default = 3
 }
