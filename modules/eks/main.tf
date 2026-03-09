@@ -5,7 +5,7 @@ module "eks" {
     cluster_name    = var.cluster_name
     cluster_version = var.clsuter_version
     vpc_id          = var.vpc_id
-    subnets_ids         = var.private_subnets
+    subnet_ids         = var.private_subnets
 
     enable_irsa = true
 
