@@ -14,8 +14,6 @@ module "eks" {
 
     authentication_mode = "API_AND_CONFIG_MAP"
 
-  enable_cluster_creator_admin_permissions = true
-
   access_entries = {
     github_actions = {
       principal_arn = "arn:aws:iam::637423260681:role/GithubActions"
