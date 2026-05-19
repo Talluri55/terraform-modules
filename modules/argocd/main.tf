@@ -4,7 +4,7 @@ resource "helm_release" "argocd" {
   chart            = "argo-cd"
   namespace        = var.namespace
   create_namespace = true
-  version          = var.chart_version
+  
 
 
   values = [
