@@ -3,8 +3,4 @@ variable "namespace" {
   default = "argocd"
 }
 
-variable "chart_version" {
-  type    = string
-  default = "null"
-}
 
